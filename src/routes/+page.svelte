@@ -13,7 +13,7 @@
 		console.log(todos);
 		console.log(filter);
 	});
-    
+
 	$effect(() => {
 		const savedTodos = localStorage.getItem('todos');
 		savedTodos && (todos = JSON.parse(savedTodos));

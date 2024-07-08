@@ -10,7 +10,7 @@
 	@import 'open-props/style';
 	@import 'open-props/normalize';
 	@import 'open-props/buttons';
-	@import '@fontsource-variable/manrope';
+	/* @import '@fontsource-variable/manrope'; */
 
 	:global(html, body) {
 		height: 100%;
